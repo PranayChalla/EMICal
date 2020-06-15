@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Smoke_Tests">
+  <test thread-count="5" name="Test">
+    <classes>
+   <class name="tests.Homepage_Tests"/>
+   <methods>
+   <include name="openingHomePageTest"/>
+   <include name="CarLoan_Button_Click_Test"/>
+   <include name="Printing_AmountandInterest"/>
+   </methods>
+   <class name="tests.HomeLoanPage_Tests"/>
+   <methods>
+   <include name="opening_HomeLoanPage_Test"/>
+    </methods>
+    <class name="tests.LoanCalPage_Tests"/>
+    <methods>
+    <include name = "opening_LoanCalPage_Test"/>
+    
+    </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.Homepage_Tests">
+        <methods>
+          <include name="CarLoan_Button_Click_Test" invocation-numbers="0"/>
+          <include name="exit"/>
+          <include name="openingHomePageTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.Homepage_Tests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,9 @@
+baseClasses\BasePageClass.class
+baseClasses\BaseTestClass.class
+utils\ExtentRepotManager.class
+utils\ImportFromExcel.class
+pageClasses\LoanCalPage.class
+pageClasses\HomePage.class
+utils\TestData.class
+pageClasses\sample.class
+pageClasses\HomeLoan.class

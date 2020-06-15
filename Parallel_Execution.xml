@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="5">
+  <test  name="Test">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <?class name="tests.LoanCalPage_Tests"/>
+      <class name="tests.HomeLoanPage_Tests"/?>
+      <class name="tests.Homepage_Tests"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test2">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <?class name="tests.LoanCalPage_Tests"/>
+      <class name="tests.HomeLoanPage_Tests"/?>
+      <class name="tests.Homepage_Tests"/>
+    </classes>
+      
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
